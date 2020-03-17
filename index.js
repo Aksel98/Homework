@@ -1,43 +1,43 @@
 // 1
-   function oddOrEvenNumber(number) {
+/*function oddOrEvenNumber(number) {
     number % 2 === 0 ? console.log('event') : console.log('odd')
-}  
+}*/
 
 // 2
-   function isDivisibleNumber(number1, number2) {
+/*function isDivisibleNumber(number1, number2) {
     (number1 % number2 === 0 || number2 % number1 === 0) &&
     (number1 !== 0 && number2 !== 0) ? console.log(1) : console.log(0)
-}  
+}*/
 
 // 3
-   function findTriangleAngle(angle1, angle2) {
+/*function findTriangleAngle(angle1, angle2) {
     console.log(180 - (angle1 + angle2))
-}  
+}*/
 
 // 4
-   function getValue(number) {
+/*function getValue(number) {
     console.log(number + Number(`${number}${number}`) + Number(`${number}${number}${number}`))
-}  
+}*/
 
 // 5
-   function digitsChanging(number) {
+/*function digitsChanging(number) {
     if (Number(number.toString().slice(number.toString().length - 1)) !== 0) {
         console.log(Number(
             number.toString().slice(number.toString().length - 1) +
             number.toString().slice(0, number.toString().length - 1)
         ))
     } else console.log(number)
-}  
+}*/
 
 // 6
-   function averageNumbers(number1, number2, number3, number4, number5) {
+/*function averageNumbers(number1, number2, number3, number4, number5) {
     let average = 0;
     average = (number1 + number2 + number3 + number4 + number5) / 5
     console.log(average)
-}  
+}*/
 
 // 7
-   function isMultipleNumber(number) {
+/*function isMultipleNumber(number) {
     let message = `${number} is a multiple of `;
     let number1 = 3;
     let number2 = 5;
@@ -65,10 +65,10 @@
         }
     }
     console.log(message)
-}  
+}*/
 
 // 8
-   function getAge(age, yearOrMonth) {
+/*function getAge(age, yearOrMonth) {
     if (yearOrMonth === 'months') {
         console.log('baby')
     } else if (yearOrMonth === 'years') {
@@ -84,11 +84,11 @@
     } else {
         console.log('put argument years or months')
     }
-}  
+}*/
 
 // 9
 
-   function sortNumbers(number1, number2, number3) {
+/*function sortNumbers(number1, number2, number3) {
     const numbers = [number1, number2, number3];
 
     for (let index = 0; index < numbers.length; index++) {
@@ -100,7 +100,7 @@
             }
         }
     }
-}  
+}*/
 
 // 10
 // function examResult(mark1, mark2, mark3) {
@@ -112,16 +112,16 @@
 // }
 
 // 11
-   function signOfProduct(number1, number2, number3) {
+/*function signOfProduct(number1, number2, number3) {
     if (number1 === 0 || number2 === 0 || number3 === 0) {
         console.log('unsigned')
     } else {
         number1 * number2 * number3 > 0 ? console.log('+') : console.log('-')
     }
-}  
+}*/
 
 // 12
-   function quadraticEquation(a, b, c) {
+/*function quadraticEquation(a, b, c) {
     let squareRoot = Math.sqrt(Math.pow(b, 2) - 4 * a * c);
     let x1 = (-b + squareRoot) / (2 * a);
     let x2 = (-b - squareRoot) / (2 * a);
@@ -134,10 +134,10 @@
             console.log(`Solution does not exists`)
         }
     }
-}  
+}*/
 
 // 13
-   var n = +prompt();
+/*var n = +prompt();
 var i = 0;
 var j = 0;
 
@@ -147,10 +147,10 @@ if (n % 2 === 0 && !Math.floor(n / 10)) {
 
 if (n % 3 === 0 && n % 10 === 1) {
         j += 1
-}  
+}*/
 
 // 14
-   function isContainsInNumber(digit, number) {
+/*function isContainsInNumber(digit, number) {
     let answer = 'No';
     for (let i = 0; i < number.toString().length; i++) {
         if (digit === Number(number.toString()[i])) {
@@ -158,10 +158,10 @@ if (n % 3 === 0 && n % 10 === 1) {
         }
     }
     console.log(answer)
-}  
+}*/
 
 // 15
-   function reverseDigits(number) {
+/*function reverseDigits(number) {
     if (Number(number.toString().slice(number.toString().length - 1)) !== 0) {
         console.log(Number(
             number.toString().slice(number.toString().length - 1) +
@@ -175,10 +175,10 @@ if (n % 3 === 0 && n % 10 === 1) {
             number.toString().slice(0, 1))
         )
     }
-}  
+}*/
 
 // 16
-   function getSquare(rectangleOrTriangle, side1, side2) {
+/*function getSquare(rectangleOrTriangle, side1, side2) {
     if (side1 > 0 && side1 > 0) {
         if (rectangleOrTriangle === 'triangle') {
             console.log(`Square of the ${rectangleOrTriangle} is ${(side1 * side2) / 2}`)
@@ -190,10 +190,10 @@ if (n % 3 === 0 && n % 10 === 1) {
     } else {
         console.log('Please enter only positives')
     }
-}  
+}*/
 
 // 17
-   function findDifference(number) {
+/*function findDifference(number) {
     let minValue = Number(number.toString()[0]);
     let maxValue = Number(number.toString()[0]);
         for (let index = 0; index < number.toString().length; index++) {
@@ -205,10 +205,10 @@ if (n % 3 === 0 && n % 10 === 1) {
                 }
         }
     console.log(maxValue - minValue)
-}  
+}*/
 
 // 17(2)
-   function isPrimeNumber(number) {
+/*function isPrimeNumber(number) {
     let isPrime = 'Yes';
     let numbers = range(3, number)
     if(number === 3) {
@@ -233,19 +233,19 @@ function range(start, end) {
         ans.push(i);
     }
     return ans;
-}  
+}*/
 
 // 18
-   function lastFibonacciNumber(number) {
+/*function lastFibonacciNumber(number) {
     let numbers = [0, 1];
     for (let i = 0; i < number - 1; i++) {
         numbers.push(numbers[i] + numbers[i + 1])
     }
     console.log(numbers[number])
-}  
+}*/
 
 // 19
-   function fibonacciNumbers(number) {
+/*function fibonacciNumbers(number) {
     let numbers = [0, 1];
     for (let i = 0; i < number; i++) {
         if (numbers[i] + numbers[i + 1] < number) {
@@ -253,10 +253,10 @@ function range(start, end) {
         }
     }
     console.log(numbers)
-}  
+}*/
 
 // 20
-   function isDivisible(number) {
+/*function isDivisible(number) {
     let sum = 0;
     let product = 1;
     if (number === 0) {
@@ -269,10 +269,10 @@ function range(start, end) {
 
         product % sum === 0 ? console.log(`Quotient is ${product / sum}`) : console.log(`Reminder is ${product % sum}`)
     }
-}  
+}*/
 
 // 21
-   function intervalInNumbers(number1, number2, arrLength) {
+/*function intervalInNumbers(number1, number2, arrLength) {
     let numbers = [number1];
     let interval = 0;
     let intervalNumbers = number1;
@@ -287,10 +287,10 @@ function range(start, end) {
         numbers.push(number2);
     }
     console.log(numbers)
-}  
+}*/
 
 // 22
-   function getSecondMaxElement(numbers) {
+/*function getSecondMaxElement(numbers) {
     let maxValue = numbers[0];
     let secondMaxValueIndex = numbers[0];
     for (let i = 0; i < numbers.length; i++) {
@@ -305,7 +305,7 @@ function range(start, end) {
         }
     }
     console.log(secondMaxValueIndex)
-}  
+}*/
 
 // 23
 function repeatPadAmount(numbers, padAmount, repeat) {
