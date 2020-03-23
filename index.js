@@ -79,6 +79,30 @@ function getLargestWord(sentence) {
     console.log(maxLengthWord)
 }
 
+// 5
+function getLongestSubstring(sentence) {
+    sentence = sentence.toLowerCase();
+    let maxLengthLetter = '';
+
+    for (let i = 0; i < sentence.length; i++) {
+        let arr = [];
+        for (let k = i; k < sentence.length; k++) {
+            if (arr.join('').replace(/ /g, '').indexOf(sentence[k]) !== -1) {
+                break
+            }
+            arr.push(sentence[k])
+        }
+
+        if (maxLengthLetter.length <= arr.length) {
+            maxLengthLetter = arr.join('')
+        }
+    }
+    console.log(maxLengthLetter)
+}
+
+getLongestSubstring('there are no two words in the english language more harmful than "good job".');
+getLongestSubstring('parting your soup is not a miracle,bruce.');
+
 // 6
 function replaceFirstCharToNextTwo(sentence) {
     let letter = sentence;
