@@ -100,9 +100,6 @@ function getLongestSubstring(sentence) {
     console.log(maxLengthLetter)
 }
 
-getLongestSubstring('there are no two words in the english language more harmful than "good job".');
-getLongestSubstring('parting your soup is not a miracle,bruce.');
-
 // 6
 function replaceFirstCharToNextTwo(sentence) {
     let letter = sentence;
