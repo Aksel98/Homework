@@ -17,7 +17,6 @@ function printXStar(starsAmount) {
         spaceCount--;
     }
 }
-printXStar(5)
 
 
 // 2
