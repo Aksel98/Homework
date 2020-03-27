@@ -6,7 +6,7 @@ function printXStar(starsAmount) {
     let spaceCount2 = 0;
 
     for (let k = starsAmount; k > 1; k--) {
-        letter = ' '.repeat(spaceCount2) + '*' + (k > 1 ? ' '.repeat((2 * k) - 3) : '') + (k > 1 ? '*' : '');
+        letter = ' '.repeat(spaceCount2) + '*' + ' '.repeat((2 * k) - 3) + '*';
         console.log(letter);
         spaceCount2++;
     }
@@ -17,6 +17,7 @@ function printXStar(starsAmount) {
         spaceCount--;
     }
 }
+printXStar(5)
 
 
 // 2
