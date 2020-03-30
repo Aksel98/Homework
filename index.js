@@ -72,7 +72,7 @@ function getLargestWord(sentence) {
     arr.push(sentence.substring(spaceIndex, sentence.length));
 
     for (let i = 0; i < arr.length; i++) {
-        if (maxLengthWord.length <= arr[i].length) {
+        if (maxLengthWord.length < arr[i].length) {
             maxLengthWord = arr[i]
         }
     }
